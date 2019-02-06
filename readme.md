@@ -1773,7 +1773,7 @@ POST /provisioning/domain
 
 ```json
 {
-   "xml": "<Product_CustomField module=\"baskinv\" field=\"total_inv\" product=\"test\">500</Product_CustomField>"
+   "xml": "<User_Add><Name>miva_merchant<\/Name><Password>password<\/Password><Administrator>Yes<\/Administrator><\/User_Add>"
 }
 ```
 
@@ -1795,7 +1795,7 @@ POST /provisioning/store
 
 ```json
 {
-   "xml": "<User_Add><Name>miva_merchant<\/Name><Password>password<\/Password><Administrator>Yes<\/Administrator><\/User_Add>"
+   "xml": "<Product_CustomField module=\"baskinv\" field=\"total_inv\" product=\"test\">500</Product_CustomField>"
 }
 ```
 
