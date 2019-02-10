@@ -114,7 +114,7 @@ class Controller extends BaseController
                     $search_field_vals['value'] = [];
 
                     foreach (array_values($indexed_vals) as $index_val) {
-                        $search_field_vals['value'][] = $this->getSearchFieldValues($search_fields[$index_val], true);
+                        $search_field_vals['value'][] = $this->getSearchFieldValues($search_fields[$index_val]);
                     }
                 } elseif (!is_int($field)) {
                     $search_field_vals[$field] = ($field === 'operator' ? strtoupper($value) : $value);

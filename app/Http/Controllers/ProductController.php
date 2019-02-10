@@ -92,7 +92,7 @@ class ProductController extends Controller
     public function createInventory(Request $request)
     {
         $api_response = $this->api->func('ProductList_Adjust_Inventory')
-            ->params(array_merge($request->all()))
+            ->params($request->all())
             ->add()
             ->send();
 
