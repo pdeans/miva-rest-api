@@ -1,3 +1,5 @@
+> This package is **abandoned** and no longer maintained.
+
 # Miva JSON API REST Wrapper
 
 PHP library providing a RESTful interface for interacting with the Miva JSON API.
@@ -1208,7 +1210,7 @@ POST /orders/{id}/items
 **Example Request Body**
 
 ```json
-{   
+{
     "Code": "custom-schmedium-pink-shirt",
     "Name": "Custom Schmedium T-Shrt",
     "SKU": "schmedium-pink-shirt",
